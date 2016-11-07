@@ -10,6 +10,10 @@ class LatexAnalyzer extends Analyzer
             "store" => true
             ),
 
+        // "T_KEYWORD" => array(
+        //     "regex" => '/^(int)|(double)|(return)|(goto)|(while)|(if)|(break)|(continue)|(public)|(private)|(float)|(class)/',
+        //     "store" => true
+        //     ),
         "T_INDENTIFIER" => array(
             "regex" => '/^[a-zA-ZÀ-ÿ][a-zA-Z0-9À-ÿ]*/',
             "store" => true

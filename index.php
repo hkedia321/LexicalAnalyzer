@@ -20,90 +20,9 @@ $tokens = $latex->parse($file);
 <html>
 <head>
 	<meta charset="utf-8">
+	<title>Lexical Analyzer - Theory of Computation</title>
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
-	<style type="text/css">
-	body{
-		background-color: #fefefe;
-	}
-		.table-div{
-			min-height: 90vh;
-		}
-		hr{
-			background-color: black;
-			color: black;
-			border:solid 2px black;
-		}
-		.red,.count{
-			color: red;
-		}
-		.KEYWORD{
-			color: red;
-		}
-		.key-color-keyword{
-			height: 0.5rem;
-			width: 0.5rem;
-			padding: 0.05rem 0.5rem;
-			background-color: red;
-		}
-		.PUNCTUATION{
-			color: blue;
-		}
-		.key-color-punctuation{
-			height: 0.5rem;
-			width: 0.5rem;
-			padding: 0.05rem 0.5rem;
-			background-color: blue;
-		}
-		.WHITESPACE{
-			color: grey;
-		}
-		.key-color-whitespace{
-			height: 0.5rem;
-			width: 0.5rem;
-			padding: 0.05rem 0.5rem;
-			background-color: grey;
-		}
-		.INDENTIFIER{
-			color: green;
-		}
-		.key-color-identifier{
-			height: 0.5rem;
-			width: 0.5rem;
-			padding: 0.05rem 0.5rem;
-			background-color: green;
-		}
-		.NUMBER{
-			color: #dfcd30;
-		}
-		.key-color-number{
-			height: 0.5rem;
-			width: 0.5rem;
-			padding: 0.05rem 0.5rem;
-			background-color: #dfcd30;
-		}
-		.COMMENT{
-			color: #00bcd4;
-		}
-		.key-color-comment{
-			height: 0.5rem;
-			width: 0.5rem;
-			padding: 0.05rem 0.5rem;
-			background-color: #00bcd4;
-		}
-		.key-color-all{
-			height: 0.5rem;
-			width: 0.5rem;
-			padding: 0.05rem 0.5rem;
-			background-color: black;
-		}
-		.key-wrap span{
-			transition: 1s all ease;
-		}
-		.key-wrap span:hover{
-			cursor: pointer;
-			text-decoration: underline;
-		}
-	</style>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 	<div class="container">
